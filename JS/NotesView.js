@@ -45,7 +45,7 @@ export default class NotesView {
     
     _createListItemHTML(id,title,body,updated)
     {   //side-bar preview of notes
-        const MAX_BODY_LENGTH =60;
+        const MAX_BODY_LENGTH =23;
         return `
         <div class="notes__list-item" data-note-id="${id}">
             <div class="notes__small-title">${title.substring(0,21)}</div>
