@@ -14,7 +14,7 @@ export default class NotesView {
 
                 <input class="notes__title" type="text" placeholder="Note">
 
-                <textarea class="notes__body" placeholder="Take Note...">
+                <textarea class="notes__body" id="notes__body" placeholder="Take Note...">
                 </textarea>
             </div>
         `;
@@ -23,8 +23,9 @@ export default class NotesView {
         const btnAddNote= this.root.querySelector(".notes__add");
         const inpTitle = this.root.querySelector(".notes__title");
         const inpBody = this.root.querySelector(".notes__body");
-
+        
         btnAddNote.addEventListener('click',() => {
+            document.getElementById("notes__body").focus();
             this.onNoteAdd();
         });
 
@@ -77,6 +78,8 @@ export default class NotesView {
         notesListContainer.querySelectorAll(".notes__list-item").forEach(noteListItem => {
             noteListItem.addEventListener("click", () => {
                 this.onNoteSelect(noteListItem.dataset.noteId);
+                document.getElementById("notes__body").focus();
+
             });
 
             //delete
