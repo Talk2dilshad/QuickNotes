@@ -1,4 +1,3 @@
-# 
 <h1 align="center">
   QuickNotes
 </h1>
@@ -7,4 +6,4 @@
   A modern, lightweight text editor with a minimalist design.
   keeping your notes save with date,time stamp.
 </p>
-## Live Preview 🔥 https://quicknotesbydilshad.netlify.app/
+# Live Preview 🔥 https://quicknotesbydilshad.netlify.app/
