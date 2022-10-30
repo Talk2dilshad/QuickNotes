@@ -1,4 +1,4 @@
-# QuickNotes
+# ## Live Preview 🔥 https://quicknotesbydilshad.netlify.app/
 <h1 align="center">
   QuickNotes
 </h1>
